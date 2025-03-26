@@ -60,28 +60,28 @@ We have tried to implment two flows: Chat Flow (For User Interactions) and Multi
 
 ## 🛠️ How We Built It - /artifacts/arch/Architecture-Design.pdf
 
-- 🔹 Gradio UI: UI is developed using Gradio for interation with Data through MCP -> LLM ->RAG/LangGraph
+🔹 Gradio UI: UI is developed using Gradio for interation with Data through MCP -> LLM ->RAG/LangGraph
 - Device Search
 - Troubleshooting
 - Observability
 - Knowledge Base
 - Incident Response
 
-- 🔹 MCP Framework:
+🔹 MCP Framework:
 - Agent Registry: Routes query to Agents
 - Agent Context: Maintains shared content,Remembers entities
 - Specialized Agents:Device search Agent, TS Agent... 
 - Knowledge Integration: Cross-Agent knowledge,context enrichment,Query enhancement
 
-- 🔹 LLM Layer:
+🔹 LLM Layer:
 - Model : TinyLlama
 - Optimized Prompting
 
-- 🔹 LangGraph Layer: LangGraph Enabled Device Search provide
+🔹 LangGraph Layer: LangGraph Enabled Device Search provide
 - Structured Workflow Management - Edge/Node definition
 - Query Parsing - Device Search - Topology Analysis for device relationships -Result Formatting
 
-- 🔹 RAG Layer: Specialized Agents Accomplish Tasks based on their domain expertise/definition
+🔹 RAG Layer: Specialized Agents Accomplish Tasks based on their domain expertise/definition
 - Vector Stores: Troubleshooting, Device Search,KB, Cross-search store
 - Document Processing: Text chunking,Embedding,Section mapping,Formatting
 - Knowledge Base: KB Articles
