@@ -24,15 +24,11 @@ Develop a Gen-Al enabled Integrated Platform Environment (IPE) that provides an 
 - Context based data extraction: Extract fields like connectivity information, upstream and downstream dependency based on simple query for the Cl in question
 
 ## 🎥 Demo
-Location - Artifacts/demo/demo1
-- 🔹 Starting the Gradio UI App
-- 🔹 Agent - Device Search
-- 🔹 Agent - Troubleshooting
-- 🔹 Agent - Observability
-- 🔹 Agent - Knowledge Base
-- 🔹 Agent - Incident Response
+Location - Artifacts/demo/app1
+- 🔹 Agentic Innobot
+- 🔹 SmartOps ChatBot
 
-Location - Artifacts/demo/demo2
+Location - Artifacts/demo/app2
 - 🔹 Starting the Gradio UI App
 - 🔹 Agent-Device Search
 - 🔹 Agent - Troubleshooting
@@ -102,9 +98,12 @@ We have tried to implment two flows: Chat Flow (For User Interactions) and Multi
    ```
    pip install -r requirements.txt
    ```
-3. Run the project  
+3. Run the project : One app only
    ```
-   python code/src/update_gradio_app.py
+   App1: python .\code\src\app1\Gradio_GenAI_Agent.py
+   App1(Unix): python /code/src/app1/Gradio_GenAI_Agent.py
+   App2: python .\code\src\update_gradio_app.py
+   App2(Unix): python /code/src/update_gradio_app.py
    ```
 
 ## 🏗️ Tech Stack
