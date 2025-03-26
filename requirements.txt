@@ -1,6 +1,7 @@
 gradio
 pydantic
 transformers
+pysqlite3-binary
 chromadb
 sentence-transformers
 langchain
@@ -9,3 +10,6 @@ langgraph>=0.0.20
 transformers
 torch
 networkx
+pandas
+numpy
+accelerate>=0.26.0
