@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("gradio_app")
 
 # Initialize the RAG system with correct path
-rag_system = NetworkRAGSystem(knowledge_base_path="/content/agentic_rag-mcp_system/network_knowledge_base.txt")
+rag_system = NetworkRAGSystem(knowledge_base_path="network_knowledge_base.txt")
 
 # Initialize the LLM for LangGraph
 def init_llm_for_langgraph():
