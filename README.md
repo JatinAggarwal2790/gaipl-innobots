@@ -87,11 +87,11 @@ We have tried to implment two flows: Chat Flow (For User Interactions) and Multi
 - Knowledge Base: KB Articles
 
 ## 🚧 Challenges We Faced
-- 🔹 Using the TinyLlama required GPU for the LLM to train. On CPU, it is slow.
-- 🔹 MCP Implementations require connections for Enterprise API
-- 🔹 Chroma DB hosting requires specific hardware for scability. For demo, it is a single-point of failure.
-- 🔹 RAG implementation requires Enterprise Data inventory which could have helped with upstream and downstream correlations.
-- 🔹 Dataset was not available for the training. We created sample dataset for the training but it does not cover all the possibile combinations of relationships.
+- Using the TinyLlama required GPU for the LLM to train. On CPU, it is slow.
+- MCP Implementations require connections for Enterprise API
+- Chroma DB hosting requires specific hardware for scability. For demo, it is a single-point of failure.
+- RAG implementation requires Enterprise Data inventory which could have helped with upstream and downstream correlations.
+- Dataset was not available for the training. We created sample dataset for the training but it does not cover all the possibile combinations of relationships.
 
 ## 🏃 How to Run - /artifacts/arch/Demo-Flows-Innobots.docx
 1. Clone the repository  
