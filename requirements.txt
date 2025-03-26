@@ -1,0 +1,11 @@
+gradio
+pydantic
+transformers
+chromadb
+sentence-transformers
+langchain
+langchain-community
+langgraph>=0.0.20
+transformers
+torch
+networkx
