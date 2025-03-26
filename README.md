@@ -47,18 +47,18 @@ So this chatbot having agentic workflows provides an integrated console to our p
 
 ## ⚙️ What It Does
 We have tried to implment two flows: Chat Flow (For User Interactions) and Multi-Agent Flow (Trigger)
-# Chat Flow - /artifacts/Flows/UserFlow.png
+# Chat Flow - /artifacts/arch/Flows/UserFlow.png
 - AI chatbot to contextually chat with a GPT backend on the Context based data extraction of the CI Items - Like Location, Environment, Support Groups and CI related information required by the Operations Engineers.
 - Provide agentic capabilities for monitoring of those CI Items and viewing the Time-Series Data of the CI Item (MCP implmenation with Grafana\Prometheus)
 - Context based data extraction where it can provide upstream and downstream dependency based on simple query for the CI in question.
 
-# Trigger Based Autonomous Flow - /artifacts/Flows/TriggerBasedAutonomousFlow.png
+# Trigger Based Autonomous Flow - /artifacts/arch/Flows/TriggerBasedAutonomousFlow.png
 - Ability to leverage enterprise information for troubleshooting, where it can integrate with data source using MCP (Model context protocol) to take action which can be either: Invasive (Which changes something on the CI Item) and Non-Invasive (Information Gathering on the CI Item). 
 - Invasive actions will further require Approvals - Man in the loop
 - Non-Invasive will only be used for information gathering and does not require approval - Man outside of the loop
 - Multi-Agents will work in tandem where a second agent can just monitor the status what the first agent is doing and third agent can run the live probe to validate the CI status.
 
-## 🛠️ How We Built It
+## 🛠️ How We Built It - /artifacts/arch/Architecture-Design.pdf
 
 - 🔹 Gradio UI: UI is developed using Gradio for interation with Data through MCP -> LLM ->RAG/LangGraph
 - Device Search
@@ -93,7 +93,7 @@ We have tried to implment two flows: Chat Flow (For User Interactions) and Multi
 - 🔹 RAG implementation requires Enterprise Data inventory which could have helped with upstream and downstream correlations.
 - 🔹 Dataset was not available for the training. We created sample dataset for the training but it does not cover all the possibile combinations of relationships.
 
-## 🏃 How to Run
+## 🏃 How to Run - /artifacts/arch/Demo-Flows-Innobots.docx
 1. Clone the repository  
    ```
    git clone https://github.com/ewfx/gaipl-innobots.git
